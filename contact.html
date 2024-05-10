@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="contact-sub-header">
+        <nav>
+          <img src="\Chatbot-main\templates\images\ipec.jpeg" alt="Error" width="40px">
+          <p><strong>IPEC</strong></p>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                  <li><a href="/Chatbot-main/templates/base.html">Home</a></li>
+                  <li><a href="/Chatbot-main/templates/about.html">About</a></li>
+                  <li><a href="/Chatbot-main/templates/course.html">Courses</a></li>
+                  <li><a href="/Chatbot-main\templates\contact.html">Contact</a></li>
+              </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <section class="contact">
+            <div class="content">
+                <h2>Contact Us</h2>
+                <p>Inderprastha Engineering College</p>
+            </div>
+            <div class="container">
+                <div class="contactinfo">
+                    <div class="box">
+                        <!-- <div class="icon"><i class="fa fa-map-marker"></i></div> -->
+                        <div class="text">
+                            <h4>Address</h4>
+                            <p>63 Site IV, Sahibabad Industrial Area,<br> Surya Nagar Flyover Road Sahibabad, Ghaziabad-U.P</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <!-- <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div> -->
+                        <div class="text">
+                            <h4>Phone</h4>
+                            <p>+91 (120) 4535000 Ext. 221</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <!-- <div class="icon"><i class="bi bi-envelope-at-fill"></i></div> -->
+                        <div class="text">
+                            <h4>Email</h4>
+                            <p>admission@ipec.org.in</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="form">
+                    <form>
+                        <h4>Send Feedback</h4>
+                        <div class="inputBox">
+                            <input type="text" name="" required="">
+                            <span>Full Name</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="text" name="" required="">
+                            <span>Email</span>
+                        </div>
+                        <div class="inputBox">
+                            <textarea required="required"></textarea>
+                            <span>Type Your Feedback</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" class="" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+    </section>
+
+<!-------------------------bot----------------------------------->
+
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chat support</h4>
+                    <p class="chatbox__description--header">Hi, How can I help you?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="./chatbox-icon.svg" /></button>
+        </div>
+    </div>
+</div>
+
+
+<script src="./app.js"></script>
+
+
+</body>
+</html>
+        
+
+  
+
+
+  

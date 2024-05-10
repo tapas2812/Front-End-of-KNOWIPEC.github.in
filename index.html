@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+          <img src="\Chatbot-main\templates\images\ipec.jpeg" alt="Error" width="40px">
+          <p><strong>IPEC</strong></p>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                  <li><a href="\Chatbot-main/templates/base.html">Home</a></li>
+                  <li><a href="\Chatbot-main/templates/about.html">About</a></li>
+                  <li><a href="/Chatbot-main/templates/course.html">Courses</a></li>
+                  <li><a href="/Chatbot-main\templates\contact.html">Contact</a></li>
+              </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h2>Best College in AKTU</h2>
+            <p>IPEC is one of the most preferred engineering college in Ghaziabad<br>Delhi NCR for aspiring engineers and technologists.</p>
+            <a href="https://www.ipec.org.in/about-us/" class="btn">Visit Us To know More</a>    
+          </div>
+  </section>
+
+  <!------------------Courses---------------->
+
+  <section class="course">
+    <h2>Courses we Offer</h2>
+    <div class="row">
+        <div class="course-column">
+            <h4>B.Tech</h4>
+            <p>The B.Tech Course is spread over 4 years, Eight semesters. Each semester has an appropriate mix of subjects as enlisted in the University Curriculum. We offer additional Value-Added Courses and Value-Added Specializations for all our students.</p>
+        </div>
+        <div class="course-column">
+            <h4>BBA/BCA</h4>
+            <p>The BBA Course is spread over 3 years, six semesters. Each semester has an appropriate mix of subjects as enlisted in the University Curriculum. We offer additional Value-Added Courses and Value-Added Specializations for all our students.</p>
+        </div>
+        <div class="course-column">
+            <h3>M.Tech</h3>
+            <p>The M.Tech Course is spread over 2 years, four semesters. Each semester has an appropriate mix of subjects as enlisted in the University Curriculum. We offer additional Value-Added Courses and Value-Added Specializations for all our students.</p>
+        </div>
+    </div>
+    </section>
+
+    <section class="campus">
+        <h2>Our Campus</h2>
+        <p>IPEC is a self-financed institute, established in the year 2000, affiliated to Dr. A.P.J. Abdul Kalam Technical University (Formerly known as UPTU) and is approved by AICTE.</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="\Chatbot-main/templates/images/cafeteria.jpg" alt="cafeteria">
+            </div>
+            <div class="campus-col">
+                <img src="\Chatbot-main/templates/images/sportarena.jpeg" alt="Sport Arena">
+            </div>
+            <div class="campus-col">
+                <img src="\Chatbot-main/templates/images/th.jpeg" alt="Ground">
+            </div>
+        </div>
+    </section>
+    
+    
+
+    
+                
+
+
+
+<!----------------------bot--------------------------->
+
+  
+
+
+  <div class="container">
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header">Chat support</h4>
+                        <p class="chatbox__description--header">Hi, How can I help you?</p>
+                    </div>
+                </div>
+                <div class="chatbox__messages">
+                    <div></div>
+                </div>
+                <div class="chatbox__footer">
+                    <input type="text" placeholder="Write a message...">
+                    <button class="chatbox__send--footer send__button">Send</button>
+                </div>
+            </div>
+            <div class="chatbox__button">
+                <button><img src="./chatbox-icon.svg" /></button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+
+
+</body>
+</html>
