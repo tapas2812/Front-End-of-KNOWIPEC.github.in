@@ -455,7 +455,9 @@ h3{
 /* CHATBOX
 =============== */
 
-
+/* .container{
+    position: relative;
+} */
 
 .chatbox {
     position: fixed;
