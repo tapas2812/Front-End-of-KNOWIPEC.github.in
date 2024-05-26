@@ -126,8 +126,8 @@ nav{
 nav .fa{
     display: none;
 }
-
-@media(max-width: 700px){
+/************************Mobile View***********************************************/
+@media(max-width: 360px){
     .text-box h2{
         font-size: 15px;
     }
@@ -146,13 +146,13 @@ nav .fa{
         transition: 1s;
     }
 
-    nav .fa{
+    /* nav .fa{
         display: block;
         color: #F1F1F1;
         margin: 10px;
         font-size: 15px;
         cursor: pointer;
-    }
+    } */
  
     .nav-links ul{
         padding: 30px;
@@ -172,6 +172,8 @@ h2{
     font-size: 36px;
     font-weight: 600;
 }
+
+
 
 .row{
     margin-top: 5%;
